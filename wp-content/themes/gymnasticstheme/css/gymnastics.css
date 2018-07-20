@@ -1,0 +1,192 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	color: #333;
+	
+	font: sans-serif;
+	height: 100%;
+}
+
+body {
+	/*padding-top: 70px;*/
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+/*
+===============================================
+HEADER START
+===============================================
+*/
+
+#cover{
+	/*height: 100vh;*/
+	background: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	text-align: center;
+  	color: white;
+  	text-align: center;
+
+
+}
+#cover .image{
+  	/*width: 100%;
+	object-fit: contain;
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;*/
+
+    width: 100%;
+	height: 200px;
+    object-fit: cover;
+
+}
+
+#cover #cover-caption .container .col-sm-10 .btn{
+	position: absolute;
+	left: 50rem;
+    top: 75rem;
+}
+
+/*
+===============================================
+HEADER END
+===============================================
+*/
+
+/*
+===============================================
+APIE MUS START
+===============================================
+*/
+
+#feature-one .container .feature-row .feature-content .col-lg-6,
+#feature-one .container .feature-row .feature-content .col-lg-5 {
+	display: inline-block;
+}
+
+.multi-gallery .container h3,
+#feature-one .container .feature-row h3{
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+#feature-one .container .feature-row .feature-content {
+	padding: 5rem 0;
+	overflow: hidden;
+}
+
+#feature-one .container .feature-row {
+	margin-bottom: 1rem;
+}
+
+#feature-one .container .feature-row a {
+	margin: 0 auto;
+}
+
+/*
+===============================================
+APIE MUS END
+===============================================
+*/
+
+
+/*
+===============================================
+GALERIJA START
+===============================================
+*/
+
+/*Grid row cards START*/
+
+
+/*.container .display-3{
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 auto;
+}*/
+
+.multi-gallery .container .gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+.multi-gallery .container .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+.multi-gallery .container .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+@media (max-width: 450px) {
+    .multi-gallery .container .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+
+@media (min-width: 768px){
+	.col-md-12 {
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	    margin: 0 -1em;
+	}
+}
+
+/*
+===============================================
+GALERIJA END
+===============================================
+*/
+
+
+/*
+===============================================
+GALERIJA START
+===============================================
+*/
+
+
+/*GOOGLE MAPS START*/
+/*google apis zemelapio stiliai yra toj pacioj svetainej*/
+/*#map {
+	/* Always set the map height explicitly to define the size of the div 
+	* element that contains the map. 
+	position: relative;
+	overflow: hidden;
+	height: 20em;
+    width: 22em;
+	top: 1em;
+	 Optional: Makes the sample page fill the window. 
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+	padding: 0;
+}*/
+/*GOOGLE MAPS END*/
+
+#footer-main {
+	background: #222;
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+}
